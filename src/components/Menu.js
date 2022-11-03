@@ -43,20 +43,20 @@ export default function Menu() {
                         </Button>
                         <Collapse in={open}>
                             <div id="example-collapse-text">
-                            <Row xs={1} md={3} className="g-4">
-                        {Array.from({ length: 3 }).map((_, idx) => (
-                            <Col>
-                                <Card.Img variant="top" src="./assets/images/menu-image-2.png" />
-                                <Card.Body>
-                                    <Card.Title className='text-center pt-4'>Lorem ipsum</Card.Title>
-                                    <Card.Text className='text-center pt-2'>
-                                        Lorem ipsum dolor sit amet,<br />
-                                        consectetur  adipisicing...
-                                    </Card.Text>
-                                </Card.Body>
-                            </Col>
-                        ))}
-                    </Row>
+                                <Row xs={1} md={3} className="g-4">
+                                    {Array.from({ length: 3 }).map((_, idx) => (
+                                        <Col>
+                                            <Card.Img variant="top" src="./assets/images/menu-image-2.png" />
+                                            <Card.Body>
+                                                <Card.Title className='text-center pt-4'>Lorem ipsum</Card.Title>
+                                                <Card.Text className='text-center pt-2'>
+                                                    Lorem ipsum dolor sit amet,<br />
+                                                    consectetur  adipisicing...
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Col>
+                                    ))}
+                                </Row>
                             </div>
                         </Collapse>
                     </div>
